@@ -1,3 +1,4 @@
+package ru.lesson.lessons;
 import java.util.Scanner;
 
 public class inter
@@ -27,11 +28,22 @@ if(reader.next().equals("y"))
 System.out.println("bay,bay");
 break;
 }
+else
+  {System.out.println("Enter symbol 'y' not for delete result" + "'result'/ enter any symbol 'result' use next?"); 
+if(reader.next().equals("y"))
+{
+cancl.setSave(true);
+cancl.setFirst(cancl.getResult());
+
 
 }
 
 }
 
+}
+
+
+}
 
 }
 }

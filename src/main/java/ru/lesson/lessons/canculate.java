@@ -1,3 +1,4 @@
+package ru.lesson.lessons;
 public class canculate
 {
 private double first;
@@ -53,6 +54,10 @@ save=s;
 public boolean getSave()
 {
 return save;
+}
+public double getResult()
+{
+return result;
 }
 
 }
